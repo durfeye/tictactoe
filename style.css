@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+body, html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scoreBoard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    text-align: center;
+}
+.actualScore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.actualScore p {
+    padding: 20px;
+    margin: 0;
+}
+.actualGameBoard td {
+    border: 1px solid black;
+    padding: 5vh;
+}
+.actualGameBoard {
+    margin-top: 3vh;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 3vh;
+}
+.markButtons button {
+    width: 10vh;
+    height: 10vh;
+}
+.selectMark {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
