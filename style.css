@@ -29,12 +29,16 @@ body {
 }
 .actualGameBoard td {
     border: 1px solid black;
-    padding: 5vh;
+    width: 15vh;
+    height: 15vh;
+    text-align: center;
+    font-size: 10vh;
 }
 .actualGameBoard {
     margin-top: 3vh;
     border-spacing: 0;
     border-collapse: collapse;
+    display: none;
 }
 footer {
     position: absolute;
@@ -46,9 +50,24 @@ footer {
     height: 10vh;
 }
 .selectMark {
-    margin-top: 2vh;
+    margin-top: 3vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2vh;
+}
+.resultBox {
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resultInfo {
+    display: none;
+}
+.restartBtn {
+    height: 8vh;
+    width: 10vh;
+    display: none;
 }
